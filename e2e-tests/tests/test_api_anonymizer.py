@@ -3,7 +3,7 @@ import json
 import pytest
 
 from common.assertions import equal_json_strings
-from common.methods import anonymize, anonymizers, deanonymize
+from common.methods import anonymize, anonymizers, deanonymize, genz
 
 
 @pytest.mark.api
