@@ -116,7 +116,6 @@ class Server:
                 content.get("analyzer_results")
             )
 
-            from presidio_anonymizer.entities import OperatorConfig
             operators = {"DEFAULT": OperatorConfig("genz")}
 
             anonymizer_result = self.anonymizer.anonymize(
